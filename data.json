@@ -1,325 +1,326 @@
 {
   "nodes": [
-	{
-		"name": "侯哥",
-		"role_id": 0,
-		"avatar": "./img/houge.jpg"
-	},
-	{
-		"name": "飞哥",
-		"role_id": 1,
-		"avatar": "./img/feige.jpg"
-	},
-	{
-		"name": "武哥",
-		"role_id": 2,
-		"avatar": "./img/wuge.jpg"
-	},
-	{
-		"name": "峰哥",
-		"role_id": 3,
-		"avatar": "./img/fengge.jpg"
-	},
-	{
-		"name": "飞嫂",
-		"role_id": 4,
-		"avatar": "./img/feisao.jpg"
-	},
-	{
-		"name": "大胃王",
-		"role_id": 5,
-		"avatar": "./img/dawei.jpg"
-	},
-	{
-		"name": "老二",
-		"role_id": 6,
-		"avatar": "./img/laoer.jpg"
-	},
-	{
-		"name": "小胃王",
-		"role_id": 7,
-		"avatar": "./img/xiaowei.jpg"
-	},
-	{
-		"name": "小肉肉",
-		"role_id": 8,
-		"avatar": "./img/rourou.jpg"
-	},
-	{
-		"name": "尼古拉",
-		"role_id": 9,
-		"avatar": "./img/nigula.jpg"
-	},
-	{
-		"name": "大哈",
-		"role_id": 10,
-		"avatar": "./img/daha.jpg"
-	},
-	{
-		"name": "肉爸",
-		"role_id": 11,
-		"avatar": "./img/rouba.jpg"
-	},
-	{
-		"name": "肉妈",
-		"role_id": 12,
-		"avatar": "./img/rouma.jpg"
-	},
-	{
-		"name": "侯爸",
-		"role_id": 13,
-		"avatar": "./img/houba.jpg"
-	},
-	{
-		"name": "侯妈",
-		"role_id": 14,
-		"avatar": "./img/houma.jpg"
-	},
-	{
-		"name": "霞",
-		"role_id": 15,
-		"avatar": "./img/xia.jpg"
-	}
+    {
+      "name": "\u4faf\u54e5",
+      "role_id": 0,
+      "avatar": "./img/houge.jpg"
+    },
+    {
+      "name": "\u98de\u54e5",
+      "role_id": 1,
+      "avatar": "./img/feige.jpg"
+    },
+    {
+      "name": "\u6b66\u54e5",
+      "role_id": 2,
+      "avatar": "./img/wuge.jpg"
+    },
+    {
+      "name": "\u5cf0\u54e5",
+      "role_id": 3,
+      "avatar": "./img/fengge.jpg"
+    },
+    {
+      "name": "\u98de\u5ac2",
+      "role_id": 4,
+      "avatar": "./img/feisao.jpg"
+    },
+    {
+      "name": "\u5927\u80c3\u738b",
+      "role_id": 5,
+      "avatar": "./img/dawei.jpg"
+    },
+    {
+      "name": "\u8001\u4e8c",
+      "role_id": 6,
+      "avatar": "./img/laoer.jpg"
+    },
+    {
+      "name": "\u5c0f\u80c3\u738b",
+      "role_id": 7,
+      "avatar": "./img/xiaowei.jpg"
+    },
+    {
+      "name": "\u5c0f\u8089\u8089",
+      "role_id": 8,
+      "avatar": "./img/rourou.jpg"
+    },
+    {
+      "name": "\u5c3c\u53e4\u62c9",
+      "role_id": 9,
+      "avatar": "./img/nigula.jpg"
+    },
+    {
+      "name": "\u5927\u54c8",
+      "role_id": 10,
+      "avatar": "./img/daha.jpg"
+    },
+    {
+      "name": "\u8089\u7238",
+      "role_id": 11,
+      "avatar": "./img/rouba.jpg"
+    },
+    {
+      "name": "\u8089\u5988",
+      "role_id": 12,
+      "avatar": "./img/rouma.jpg"
+    },
+    {
+      "name": "\u4faf\u7238",
+      "role_id": 13,
+      "avatar": "./img/houba.jpg"
+    },
+    {
+      "name": "\u4faf\u5988",
+      "role_id": 14,
+      "avatar": "./img/houma.jpg"
+    },
+    {
+      "name": "\u971e",
+      "role_id": 15,
+      "avatar": "./img/xia.jpg"
+    }
   ],
   "links": [
-	{
-		"source": 5,
-		"target": 15,
-		"relation": "朋友",
-		"color": "393e46"
-	},
-	{
-		"source": 15,
-		"target": 5,
-		"relation": "朋友",
-		"color": "393e46"
-	},
-	{
-		"source": 15,
-		"target": 6,
-		"relation": "夫妻",
-		"color": "393e46"
-	},
-	{
-		"source": 6,
-		"target": 15,
-		"relation": "夫妻",
-		"color": "393e46"
-	},
-	{
-		"source": 0,
-		"target": 1,
-		"relation": "徒弟",
-		"color": "393e46"
-	},
-	{
-		"source": 5,
-		"target": 0,
-		"relation": "姑姑",
-		"color": "393e46"
-	},
-	{
-		"source": 5,
-		"target": 1,
-		"relation": "保姆",
-		"color": "393e46"
-	},
-	{
-		"source": 4,
-		"target": 1,
-		"relation": "老婆",
-		"color": "393e46"
-	},
-	{
-		"source": 6,
-		"target": 1,
-		"relation": "小弟",
-		"color": "393e46"
-	},
-	{
-		"source": 6,
-		"target": 0,
-		"relation": "二舅公",
-		"color": "393e46"
-	},{
-		"source": 10,
-		"target": 7,
-		"relation": "大舅公",
-		"color": "393e46"
-	},
-	{
-		"source": 6,
-		"target": 5,
-		"relation": "二舅",
-		"color": "393e46"
-	},
-	{
-		"source": 6,
-		"target": 7,
-		"relation": "二舅公",
-		"color": "393e46"
-	},
-	{
-		"source": 5,
-		"target": 7,
-		"relation": "妈妈",
-		"color": "393e46"
-	},
-	{
-		"source": 0,
-		"target": 7,
-		"relation": "表哥",
-		"color": "393e46"
-	},
-	{
-		"source": 1,
-		"target": 7,
-		"relation": "爷爷",
-		"color": "393e46"
-	},
-	{
-		"source": 1,
-		"target": 2,
-		"relation": "三巨头",
-		"color": "393e46"
-	},
-	{
-		"source": 2,
-		"target": 1,
-		"relation": "三巨头",
-		"color": "393e46"
-	},
-	{
-		"source": 1,
-		"target": 3,
-		"relation": "三巨头",
-		"color": "393e46"
-	},
-	{
-		"source": 3,
-		"target": 1,
-		"relation": "三巨头",
-		"color": "393e46"
-	},
-	{
-		"source": 2,
-		"target": 3,
-		"relation": "三巨头",
-		"color": "393e46"
-	},
-	{
-		"source": 3,
-		"target": 2,
-		"relation": "三巨头",
-		"color": "393e46"
-	},
-	{
-		"source": 0,
-		"target": 9,
-		"relation": "哥哥",
-		"color": "393e46"
-	},
-	{
-		"source": 8,
-		"target": 0,
-		"relation": "堂叔",
-		"color": "393e46"
-	},
-	{
-		"source": 8,
-		"target": 7,
-		"relation": "堂叔",
-		"color": "393e46"
-	},
-	{
-		"source": 6,
-		"target": 8,
-		"relation": "二舅",
-		"color": "393e46"
-	},
-	{
-		"source": 10,
-		"target": 5,
-		"relation": "大舅",
-		"color": "393e46"
-	},
-	{
-		"source": 10,
-		"target": 8,
-		"relation": "大舅",
-		"color": "393e46"
-	},
-	{
-		"source": 10,
-		"target": 0,
-		"relation": "大舅公",
-		"color": "393e46"
-	},
-	{
-		"source": 10,
-		"target": 6,
-		"relation": "哥哥",
-		"color": "393e46"
-	},
-	{
-		"source": 11,
-		"target": 8,
-		"relation": "爸爸",
-		"color": "393e46"
-	},
-	{
-		"source": 12,
-		"target": 8,
-		"relation": "妈妈",
-		"color": "393e46"
-	},
-	{
-		"source": 13,
-		"target": 0,
-		"relation": "爸爸",
-		"color": "393e46"
-	},
-	{
-		"source": 14,
-		"target": 0,
-		"relation": "妈妈",
-		"color": "393e46"
-	},
-	{
-		"source": 11,
-		"target": 12,
-		"relation": "夫妻",
-		"color": "393e46"
-	},
-	{
-		"source": 12,
-		"target": 11,
-		"relation": "夫妻",
-		"color": "393e46"
-	},
-	{
-		"source": 14,
-		"target": 13,
-		"relation": "夫妻",
-		"color": "393e46"
-	},
-	{
-		"source": 13,
-		"target": 14,
-		"relation": "夫妻",
-		"color": "393e46"
-	},
-	{
-		"source": 13,
-		"target": 9,
-		"relation": "爸爸",
-		"color": "393e46"
-	},
-	{
-		"source": 14,
-		"target": 9,
-		"relation": "妈妈",
-		"color": "393e46"
-	}
+    {
+      "source": 5,
+      "target": 15,
+      "relation": "\u670b\u53cb",
+      "color": 333333
+    },
+    {
+      "source": 15,
+      "target": 5,
+      "relation": "\u670b\u53cb",
+      "color": 333333
+    },
+    {
+      "source": 15,
+      "target": 6,
+      "relation": "\u592b\u59bb",
+      "color": 333333
+    },
+    {
+      "source": 6,
+      "target": 15,
+      "relation": "\u592b\u59bb",
+      "color": 333333
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "relation": "\u5f92\u5f1f",
+      "color": 333333
+    },
+    {
+      "source": 5,
+      "target": 0,
+      "relation": "\u59d1\u59d1",
+      "color": 333333
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "relation": "\u4fdd\u59c6",
+      "color": 333333
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "relation": "\u8001\u5a46",
+      "color": 333333
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "relation": "\u5c0f\u5f1f",
+      "color": 333333
+    },
+    {
+      "source": 6,
+      "target": 0,
+      "relation": "\u4e8c\u8205\u516c",
+      "color": 333333
+    },
+    {
+      "source": 10,
+      "target": 7,
+      "relation": "\u5927\u8205\u516c",
+      "color": 333333
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "relation": "\u4e8c\u8205",
+      "color": 333333
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "relation": "\u4e8c\u8205\u516c",
+      "color": 333333
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "relation": "\u5988\u5988",
+      "color": 333333
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "relation": "\u8868\u54e5",
+      "color": 333333
+    },
+    {
+      "source": 1,
+      "target": 7,
+      "relation": "\u7237\u7237",
+      "color": 333333
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "relation": "\u4e09\u5de8\u5934",
+      "color": 333333
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "relation": "\u4e09\u5de8\u5934",
+      "color": 333333
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "relation": "\u4e09\u5de8\u5934",
+      "color": 333333
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "relation": "\u4e09\u5de8\u5934",
+      "color": 333333
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "relation": "\u4e09\u5de8\u5934",
+      "color": 333333
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "relation": "\u4e09\u5de8\u5934",
+      "color": 333333
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "relation": "\u54e5\u54e5",
+      "color": 333333
+    },
+    {
+      "source": 8,
+      "target": 0,
+      "relation": "\u5802\u53d4",
+      "color": 333333
+    },
+    {
+      "source": 8,
+      "target": 7,
+      "relation": "\u5802\u53d4",
+      "color": 333333
+    },
+    {
+      "source": 6,
+      "target": 8,
+      "relation": "\u4e8c\u8205",
+      "color": 333333
+    },
+    {
+      "source": 10,
+      "target": 5,
+      "relation": "\u5927\u8205",
+      "color": 333333
+    },
+    {
+      "source": 10,
+      "target": 8,
+      "relation": "\u5927\u8205",
+      "color": 333333
+    },
+    {
+      "source": 10,
+      "target": 0,
+      "relation": "\u5927\u8205\u516c",
+      "color": 333333
+    },
+    {
+      "source": 10,
+      "target": 6,
+      "relation": "\u54e5\u54e5",
+      "color": 333333
+    },
+    {
+      "source": 11,
+      "target": 8,
+      "relation": "\u7238\u7238",
+      "color": 333333
+    },
+    {
+      "source": 12,
+      "target": 8,
+      "relation": "\u5988\u5988",
+      "color": 333333
+    },
+    {
+      "source": 13,
+      "target": 0,
+      "relation": "\u7238\u7238",
+      "color": 333333
+    },
+    {
+      "source": 14,
+      "target": 0,
+      "relation": "\u5988\u5988",
+      "color": 333333
+    },
+    {
+      "source": 11,
+      "target": 12,
+      "relation": "\u592b\u59bb",
+      "color": 333333
+    },
+    {
+      "source": 12,
+      "target": 11,
+      "relation": "\u592b\u59bb",
+      "color": 333333
+    },
+    {
+      "source": 14,
+      "target": 13,
+      "relation": "\u592b\u59bb",
+      "color": 333333
+    },
+    {
+      "source": 13,
+      "target": 14,
+      "relation": "\u592b\u59bb",
+      "color": 333333
+    },
+    {
+      "source": 13,
+      "target": 9,
+      "relation": "\u7238\u7238",
+      "color": 333333
+    },
+    {
+      "source": 14,
+      "target": 9,
+      "relation": "\u5988\u5988",
+      "color": 333333
+    }
   ]
 }
