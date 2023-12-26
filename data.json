@@ -11,29 +11,139 @@
 		"avatar": "./img/feige.jpg"
 	},
 	{
-		"name": "大胃王",
+		"name": "武哥",
 		"role_id": 2,
+		"avatar": "./img/wuge.jpg"
+	},
+	{
+		"name": "峰哥",
+		"role_id": 3,
+		"avatar": "./img/fengge.jpg"
+	},
+	{
+		"name": "飞嫂",
+		"role_id": 4,
+		"avatar": "./img/feisao.jpg"
+	},
+	{
+		"name": "大胃王",
+		"role_id": 5,
 		"avatar": "./img/dawei.jpg"
+	},
+	{
+		"name": "老二",
+		"role_id": 6,
+		"avatar": "./img/laoer.jpg"
+	},
+	{
+		"name": "小胃王",
+		"role_id": 7,
+		"avatar": "./img/xiaowei.jpg"
 	}
+	
   ],
   "links": [
 	{
 		"source": 0,
 		"target": 1,
 		"relation": "徒弟",
-		"color": "734646"
+		"color": "393e46"
 	},
 	{
-		"source": 2,
+		"source": 5,
 		"target": 0,
 		"relation": "姑姑",
-		"color": "734646"
+		"color": "393e46"
+	},
+	{
+		"source": 5,
+		"target": 1,
+		"relation": "保姆",
+		"color": "393e46"
+	},
+	{
+		"source": 4,
+		"target": 1,
+		"relation": "老婆",
+		"color": "393e46"
+	},
+	{
+		"source": 6,
+		"target": 1,
+		"relation": "保安/小弟",
+		"color": "393e46"
+	},
+	{
+		"source": 6,
+		"target": 0,
+		"relation": "二舅爷",
+		"color": "393e46"
+	},
+	{
+		"source": 6,
+		"target": 5,
+		"relation": "二舅爹",
+		"color": "393e46"
+	},
+	{
+		"source": 6,
+		"target": 7,
+		"relation": "二舅爷",
+		"color": "393e46"
+	},
+	{
+		"source": 5,
+		"target": 7,
+		"relation": "妈妈",
+		"color": "393e46"
+	},
+	{
+		"source": 0,
+		"target": 7,
+		"relation": "表哥",
+		"color": "393e46"
+	},
+	{
+		"source": 1,
+		"target": 7,
+		"relation": "爷爷",
+		"color": "393e46"
+	},
+	{
+		"source": 1,
+		"target": 2,
+		"relation": "三巨头",
+		"color": "393e46"
 	},
 	{
 		"source": 2,
 		"target": 1,
-		"relation": "保姆",
-		"color": "734646"
+		"relation": "三巨头",
+		"color": "393e46"
+	},
+	{
+		"source": 1,
+		"target": 3,
+		"relation": "三巨头",
+		"color": "393e46"
+	},
+	{
+		"source": 3,
+		"target": 1,
+		"relation": "三巨头",
+		"color": "393e46"
+	},
+	{
+		"source": 1,
+		"target": 2,
+		"relation": "三巨头",
+		"color": "393e46"
+	},
+	{
+		"source": 2,
+		"target": 1,
+		"relation": "三巨头",
+		"color": "393e46"
 	}
   ]
 }
