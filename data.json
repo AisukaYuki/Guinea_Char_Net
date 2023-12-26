@@ -1,30 +1,39 @@
 {
   "nodes": [
-    {
-      "name": "\u5468\u83b9",
-      "role_id": 0,
-      "group": 1,
-      "avatar": "./img/houge.jpg"
-    },
-    {
-      "name": "\u6c88\u661f\u79fb",
-      "role_id": 1,
-      "group": 1,
-      "avatar": "./img/houge.jpg"
-    }
+	{
+		"name": "侯哥",
+		"role_id": 0,
+		"avatar": "./img/houge.jpg"
+	},
+	{
+		"name": "飞哥",
+		"role_id": 1,
+		"avatar": "./img/feige.jpg"
+	},
+	{
+		"name": "大胃王",
+		"role_id": 2,
+		"avatar": "./img/dawei.jpg"
+	}
   ],
   "links": [
-    {
-      "source": 0,
-      "target": 1,
-      "relation": "\u670b\u53cb",
-      "color": "734646"
-    },
-    {
-      "source": 1,
-      "target": 0,
-      "relation": "\u670b\u53cb",
-      "color": "734646"
-    }
+	{
+		"source": 0,
+		"target": 1,
+		"relation": "徒弟",
+		"color": "734646"
+	},
+	{
+		"source": 2,
+		"target": 0,
+		"relation": "姑姑",
+		"color": "734646"
+	},
+	{
+		"source": 2,
+		"target": 1,
+		"relation": "保姆",
+		"color": "734646"
+	}
   ]
 }
