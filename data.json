@@ -1,111 +1,92 @@
 {
   "nodes": [
     {
-      "name": "\u4faf\u54e5",
       "role_id": 0,
+      "name": "\u4faf\u54e5",
       "avatar": "./img/houge.jpg"
     },
     {
-      "name": "\u98de\u54e5",
       "role_id": 1,
+      "name": "\u98de\u54e5",
       "avatar": "./img/feige.jpg"
     },
     {
-      "name": "\u6b66\u54e5",
       "role_id": 2,
+      "name": "\u6b66\u54e5",
       "avatar": "./img/wuge.jpg"
     },
     {
-      "name": "\u5cf0\u54e5",
       "role_id": 3,
+      "name": "\u5cf0\u54e5",
       "avatar": "./img/fengge.jpg"
     },
     {
-      "name": "\u98de\u5ac2",
       "role_id": 4,
+      "name": "\u98de\u5ac2",
       "avatar": "./img/feisao.jpg"
     },
     {
-      "name": "\u5927\u80c3\u738b",
       "role_id": 5,
+      "name": "\u5927\u80c3\u738b",
       "avatar": "./img/dawei.jpg"
     },
     {
-      "name": "\u8001\u4e8c",
       "role_id": 6,
+      "name": "\u8001\u4e8c",
       "avatar": "./img/laoer.jpg"
     },
     {
-      "name": "\u5c0f\u80c3\u738b",
       "role_id": 7,
+      "name": "\u5c0f\u80c3\u738b",
       "avatar": "./img/xiaowei.jpg"
     },
     {
-      "name": "\u5c0f\u8089\u8089",
       "role_id": 8,
+      "name": "\u5c0f\u8089\u8089",
       "avatar": "./img/rourou.jpg"
     },
     {
-      "name": "\u5c3c\u53e4\u62c9",
       "role_id": 9,
+      "name": "\u5c3c\u53e4\u62c9",
       "avatar": "./img/nigula.jpg"
     },
     {
-      "name": "\u5927\u54c8",
       "role_id": 10,
+      "name": "\u5927\u54c8",
       "avatar": "./img/daha.jpg"
     },
     {
-      "name": "\u8089\u7238",
       "role_id": 11,
+      "name": "\u8089\u7238",
       "avatar": "./img/rouba.jpg"
     },
     {
-      "name": "\u8089\u5988",
       "role_id": 12,
+      "name": "\u8089\u5988",
       "avatar": "./img/rouma.jpg"
     },
     {
-      "name": "\u4faf\u7238",
       "role_id": 13,
+      "name": "\u4faf\u7238",
       "avatar": "./img/houba.jpg"
     },
     {
-      "name": "\u4faf\u5988",
       "role_id": 14,
+      "name": "\u4faf\u5988",
       "avatar": "./img/houma.jpg"
     },
     {
-      "name": "\u971e",
       "role_id": 15,
+      "name": "\u971e",
       "avatar": "./img/xia.jpg"
+    },
+    {
+      "role_id": 16,
+      "name": "\u4e4c\u65af\u66fc",
+      "avatar": "./img/wusiman.jpg"
     }
   ],
   "links": [
-    {
-      "source": 5,
-      "target": 15,
-      "relation": "\u670b\u53cb",
-      "color": 333333
-    },
-    {
-      "source": 15,
-      "target": 5,
-      "relation": "\u670b\u53cb",
-      "color": 333333
-    },
-    {
-      "source": 15,
-      "target": 6,
-      "relation": "\u592b\u59bb",
-      "color": 333333
-    },
-    {
-      "source": 6,
-      "target": 15,
-      "relation": "\u592b\u59bb",
-      "color": 333333
-    },
     {
       "source": 0,
       "target": 1,
@@ -113,63 +94,27 @@
       "color": 333333
     },
     {
-      "source": 5,
-      "target": 0,
-      "relation": "\u59d1\u59d1",
-      "color": 333333
-    },
-    {
-      "source": 5,
-      "target": 1,
-      "relation": "\u4fdd\u59c6",
-      "color": 333333
-    },
-    {
-      "source": 4,
-      "target": 1,
-      "relation": "\u8001\u5a46",
-      "color": 333333
-    },
-    {
-      "source": 6,
-      "target": 1,
-      "relation": "\u5c0f\u5f1f",
-      "color": 333333
-    },
-    {
-      "source": 6,
-      "target": 0,
-      "relation": "\u4e8c\u8205\u516c",
-      "color": 333333
-    },
-    {
-      "source": 10,
+      "source": 0,
       "target": 7,
-      "relation": "\u5927\u8205\u516c",
-      "color": 333333
-    },
-    {
-      "source": 6,
-      "target": 5,
-      "relation": "\u4e8c\u8205",
-      "color": 333333
-    },
-    {
-      "source": 6,
-      "target": 7,
-      "relation": "\u4e8c\u8205\u516c",
-      "color": 333333
-    },
-    {
-      "source": 5,
-      "target": 7,
-      "relation": "\u5988\u5988",
+      "relation": "\u8868\u54e5",
       "color": 333333
     },
     {
       "source": 0,
-      "target": 7,
-      "relation": "\u8868\u54e5",
+      "target": 9,
+      "relation": "\u54e5\u54e5",
+      "color": 333333
+    },
+    {
+      "source": 0,
+      "target": 16,
+      "relation": "\u670b\u53cb/\u540c\u5b66",
+      "color": 333333
+    },
+    {
+      "source": 16,
+      "target": 0,
+      "relation": "\u670b\u53cb/\u540c\u5b66",
       "color": 333333
     },
     {
@@ -185,13 +130,19 @@
       "color": 333333
     },
     {
+      "source": 1,
+      "target": 3,
+      "relation": "\u4e09\u5de8\u5934",
+      "color": 333333
+    },
+    {
       "source": 2,
       "target": 1,
       "relation": "\u4e09\u5de8\u5934",
       "color": 333333
     },
     {
-      "source": 1,
+      "source": 2,
       "target": 3,
       "relation": "\u4e09\u5de8\u5934",
       "color": 333333
@@ -199,12 +150,6 @@
     {
       "source": 3,
       "target": 1,
-      "relation": "\u4e09\u5de8\u5934",
-      "color": 333333
-    },
-    {
-      "source": 2,
-      "target": 3,
       "relation": "\u4e09\u5de8\u5934",
       "color": 333333
     },
@@ -215,9 +160,69 @@
       "color": 333333
     },
     {
-      "source": 0,
-      "target": 9,
-      "relation": "\u54e5\u54e5",
+      "source": 4,
+      "target": 1,
+      "relation": "\u8001\u5a46",
+      "color": 333333
+    },
+    {
+      "source": 5,
+      "target": 15,
+      "relation": "\u670b\u53cb",
+      "color": 333333
+    },
+    {
+      "source": 5,
+      "target": 0,
+      "relation": "\u59d1\u59d1",
+      "color": 333333
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "relation": "\u4fdd\u59c6",
+      "color": 333333
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "relation": "\u5988\u5988",
+      "color": 333333
+    },
+    {
+      "source": 6,
+      "target": 15,
+      "relation": "\u592b\u59bb",
+      "color": 333333
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "relation": "\u5c0f\u5f1f",
+      "color": 333333
+    },
+    {
+      "source": 6,
+      "target": 0,
+      "relation": "\u4e8c\u8205\u516c",
+      "color": 333333
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "relation": "\u4e8c\u8205",
+      "color": 333333
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "relation": "\u4e8c\u8205\u516c",
+      "color": 333333
+    },
+    {
+      "source": 6,
+      "target": 8,
+      "relation": "\u4e8c\u8205",
       "color": 333333
     },
     {
@@ -233,9 +238,9 @@
       "color": 333333
     },
     {
-      "source": 6,
-      "target": 8,
-      "relation": "\u4e8c\u8205",
+      "source": 10,
+      "target": 7,
+      "relation": "\u5927\u8205\u516c",
       "color": 333333
     },
     {
@@ -269,27 +274,15 @@
       "color": 333333
     },
     {
-      "source": 12,
-      "target": 8,
-      "relation": "\u5988\u5988",
-      "color": 333333
-    },
-    {
-      "source": 13,
-      "target": 0,
-      "relation": "\u7238\u7238",
-      "color": 333333
-    },
-    {
-      "source": 14,
-      "target": 0,
-      "relation": "\u5988\u5988",
-      "color": 333333
-    },
-    {
       "source": 11,
       "target": 12,
       "relation": "\u592b\u59bb",
+      "color": 333333
+    },
+    {
+      "source": 12,
+      "target": 8,
+      "relation": "\u5988\u5988",
       "color": 333333
     },
     {
@@ -299,9 +292,9 @@
       "color": 333333
     },
     {
-      "source": 14,
-      "target": 13,
-      "relation": "\u592b\u59bb",
+      "source": 13,
+      "target": 0,
+      "relation": "\u7238\u7238",
       "color": 333333
     },
     {
@@ -318,8 +311,32 @@
     },
     {
       "source": 14,
+      "target": 0,
+      "relation": "\u5988\u5988",
+      "color": 333333
+    },
+    {
+      "source": 14,
+      "target": 13,
+      "relation": "\u592b\u59bb",
+      "color": 333333
+    },
+    {
+      "source": 14,
       "target": 9,
       "relation": "\u5988\u5988",
+      "color": 333333
+    },
+    {
+      "source": 15,
+      "target": 5,
+      "relation": "\u670b\u53cb",
+      "color": 333333
+    },
+    {
+      "source": 15,
+      "target": 6,
+      "relation": "\u592b\u59bb",
       "color": 333333
     }
   ]
