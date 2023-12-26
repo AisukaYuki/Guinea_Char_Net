@@ -104,13 +104,18 @@
 	{
 		"source": 6,
 		"target": 1,
-		"relation": "保安/小弟",
+		"relation": "小弟",
 		"color": "393e46"
 	},
 	{
 		"source": 6,
 		"target": 0,
 		"relation": "二舅公",
+		"color": "393e46"
+	},{
+		"source": 10,
+		"target": 7,
+		"relation": "大舅公",
 		"color": "393e46"
 	},
 	{
@@ -205,6 +210,12 @@
 	},
 	{
 		"source": 10,
+		"target": 5,
+		"relation": "大舅",
+		"color": "393e46"
+	},
+	{
+		"source": 10,
 		"target": 8,
 		"relation": "大舅",
 		"color": "393e46"
@@ -212,7 +223,7 @@
 	{
 		"source": 10,
 		"target": 0,
-		"relation": "大舅",
+		"relation": "大舅公",
 		"color": "393e46"
 	},
 	{
