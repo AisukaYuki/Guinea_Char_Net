@@ -2,13 +2,13 @@
   "nodes": [
     {
       "name": "\u5468\u83b9",
-      "role_id": 1,
+      "role_id": 0,
       "group": 1,
       "avatar": "./img/houge.jpg"
     },
     {
       "name": "\u6c88\u661f\u79fb",
-      "role_id": 2,
+      "role_id": 1,
       "group": 1,
       "avatar": "./img/houge.jpg"
     }
@@ -21,8 +21,8 @@
       "color": "734646"
     },
     {
-      "source": 0,
-      "target": 2,
+      "source": 1,
+      "target": 0,
       "relation": "\u670b\u53cb",
       "color": "734646"
     }

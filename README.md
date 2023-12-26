@@ -21,6 +21,43 @@
 
      暂无
 
+### 数据格式
+
+```
+{
+    // 节点列表
+    nodes:[
+        {
+            "name": "路人甲",
+            "avatar": "./img/140646844806.jpg"
+        },
+        {
+            "name": "路人乙",
+            "avatar": "./img/141611471224.jpg"
+        },
+        {
+            "name": "路人丙",
+            "avatar": "./img/140848800133.jpg"
+        },
+    ],
+    // 线条列表
+    links:[
+        {
+            "source": 0,            // 起始节点在 nodes[] 中的索引
+            "target": 1,            // 目标节点在 nodes[] 中的索引
+            "relation": "朋友",      // 关系名称
+            "color": "734646"       // 自定义细条颜色,#734646
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "relation": "女朋友",
+            "color": "734646"
+        },
+    ],
+}
+```
+
 ### 相关项目
 
 - [relation-chart](https://github.com/xiedajian/relation-chart): 网络视图基于该项目创建。
