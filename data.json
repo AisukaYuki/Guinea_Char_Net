@@ -39,8 +39,17 @@
 		"name": "小胃王",
 		"role_id": 7,
 		"avatar": "./img/xiaowei.jpg"
+	},
+	{
+		"name": "小肉肉",
+		"role_id": 8,
+		"avatar": "./img/rourou.jpg"
+	},
+	{
+		"name": "尼古拉",
+		"role_id": 9,
+		"avatar": "./img/nigula.jpg"
 	}
-	
   ],
   "links": [
 	{
@@ -76,19 +85,19 @@
 	{
 		"source": 6,
 		"target": 0,
-		"relation": "二舅爷",
+		"relation": "二舅公",
 		"color": "393e46"
 	},
 	{
 		"source": 6,
 		"target": 5,
-		"relation": "二舅爹",
+		"relation": "二舅",
 		"color": "393e46"
 	},
 	{
 		"source": 6,
 		"target": 7,
-		"relation": "二舅爷",
+		"relation": "二舅公",
 		"color": "393e46"
 	},
 	{
@@ -143,6 +152,30 @@
 		"source": 2,
 		"target": 1,
 		"relation": "三巨头",
+		"color": "393e46"
+	},
+	{
+		"source": 9,
+		"target": 0,
+		"relation": "弟弟",
+		"color": "393e46"
+	},
+	{
+		"source": 8,
+		"target": 0,
+		"relation": "堂叔",
+		"color": "393e46"
+	},
+	{
+		"source": 8,
+		"target": 7,
+		"relation": "堂叔",
+		"color": "393e46"
+	},
+	{
+		"source": 6,
+		"target": 8,
+		"relation": "二舅",
 		"color": "393e46"
 	}
   ]
