@@ -74,9 +74,38 @@
 		"name": "侯妈",
 		"role_id": 14,
 		"avatar": "./img/houma.jpg"
+	},
+	{
+		"name": "霞",
+		"role_id": 15,
+		"avatar": "./img/xia.jpg"
 	}
   ],
   "links": [
+	{
+		"source": 5,
+		"target": 15,
+		"relation": "朋友",
+		"color": "393e46"
+	},
+	{
+		"source": 15,
+		"target": 5,
+		"relation": "朋友",
+		"color": "393e46"
+	},
+	{
+		"source": 15,
+		"target": 6,
+		"relation": "夫妻",
+		"color": "393e46"
+	},
+	{
+		"source": 6,
+		"target": 15,
+		"relation": "夫妻",
+		"color": "393e46"
+	},
 	{
 		"source": 0,
 		"target": 1,
@@ -185,9 +214,9 @@
 		"color": "393e46"
 	},
 	{
-		"source": 9,
-		"target": 0,
-		"relation": "弟弟",
+		"source": 0,
+		"target": 9,
+		"relation": "哥哥",
 		"color": "393e46"
 	},
 	{
