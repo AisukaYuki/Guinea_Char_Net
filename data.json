@@ -84,6 +84,11 @@
       "role_id": 16,
       "name": "\u4e4c\u65af\u66fc",
       "avatar": "./img/wusiman.jpg"
+    },
+    {
+      "role_id": 17,
+      "name": "\u5495\u560e",
+      "avatar": "./img/guga.jpg"
     }
   ],
   "links": [
@@ -91,253 +96,265 @@
       "source": 0,
       "target": 1,
       "relation": "\u5f92\u5f1f",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 0,
       "target": 7,
       "relation": "\u8868\u54e5",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 0,
       "target": 9,
       "relation": "\u54e5\u54e5",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 0,
       "target": 16,
       "relation": "\u670b\u53cb/\u540c\u5b66",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 16,
       "target": 0,
       "relation": "\u670b\u53cb/\u540c\u5b66",
-      "color": 333333
+      "color": 111111
+    },
+    {
+      "source": 0,
+      "target": 17,
+      "relation": "\u670b\u53cb",
+      "color": 111111
+    },
+    {
+      "source": 17,
+      "target": 0,
+      "relation": "\u670b\u53cb",
+      "color": 111111
     },
     {
       "source": 1,
       "target": 7,
       "relation": "\u7237\u7237",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 1,
       "target": 2,
       "relation": "\u4e09\u5de8\u5934",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 1,
       "target": 3,
       "relation": "\u4e09\u5de8\u5934",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 2,
       "target": 1,
       "relation": "\u4e09\u5de8\u5934",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 2,
       "target": 3,
       "relation": "\u4e09\u5de8\u5934",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 3,
       "target": 1,
       "relation": "\u4e09\u5de8\u5934",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 3,
       "target": 2,
       "relation": "\u4e09\u5de8\u5934",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 4,
       "target": 1,
       "relation": "\u8001\u5a46",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 5,
       "target": 15,
       "relation": "\u670b\u53cb",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 5,
       "target": 0,
       "relation": "\u59d1\u59d1",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 5,
       "target": 1,
       "relation": "\u4fdd\u59c6",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 5,
       "target": 7,
       "relation": "\u5988\u5988",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 6,
       "target": 15,
       "relation": "\u592b\u59bb",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 6,
       "target": 1,
       "relation": "\u5c0f\u5f1f",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 6,
       "target": 0,
       "relation": "\u4e8c\u8205\u516c",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 6,
       "target": 5,
       "relation": "\u4e8c\u8205",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 6,
       "target": 7,
       "relation": "\u4e8c\u8205\u516c",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 6,
       "target": 8,
       "relation": "\u4e8c\u8205",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 8,
       "target": 0,
       "relation": "\u5802\u53d4",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 8,
       "target": 7,
       "relation": "\u5802\u53d4",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 10,
       "target": 7,
       "relation": "\u5927\u8205\u516c",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 10,
       "target": 5,
       "relation": "\u5927\u8205",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 10,
       "target": 8,
       "relation": "\u5927\u8205",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 10,
       "target": 0,
       "relation": "\u5927\u8205\u516c",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 10,
       "target": 6,
       "relation": "\u54e5\u54e5",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 11,
       "target": 8,
       "relation": "\u7238\u7238",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 11,
       "target": 12,
       "relation": "\u592b\u59bb",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 12,
       "target": 8,
       "relation": "\u5988\u5988",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 12,
       "target": 11,
       "relation": "\u592b\u59bb",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 13,
       "target": 0,
       "relation": "\u7238\u7238",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 13,
       "target": 14,
       "relation": "\u592b\u59bb",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 13,
       "target": 9,
       "relation": "\u7238\u7238",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 14,
       "target": 0,
       "relation": "\u5988\u5988",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 14,
       "target": 13,
       "relation": "\u592b\u59bb",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 14,
       "target": 9,
       "relation": "\u5988\u5988",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 15,
       "target": 5,
       "relation": "\u670b\u53cb",
-      "color": 333333
+      "color": 111111
     },
     {
       "source": 15,
       "target": 6,
       "relation": "\u592b\u59bb",
-      "color": 333333
+      "color": 111111
     }
   ]
 }
