@@ -14,7 +14,7 @@
 
 ### 截图
 
-    <img src=/screenshot.png />
+<img src=/screenshot.png />
 
 ### 数据格式
 
