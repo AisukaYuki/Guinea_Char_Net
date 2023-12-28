@@ -289,6 +289,21 @@
       "role_id": 57,
       "name": "\u9a6c\u53cb",
       "avatar": "./img/mayou.jpg"
+    },
+    {
+      "role_id": 58,
+      "name": "\u5c0f\u9f99",
+      "avatar": "./img/xiaolong.jpg"
+    },
+    {
+      "role_id": 59,
+      "name": "\u739b\u683c\u4e3d",
+      "avatar": "./img/mageli.jpg"
+    },
+    {
+      "role_id": 60,
+      "name": "\u901f",
+      "avatar": "./img/su.jpg"
     }
   ],
   "links": [
