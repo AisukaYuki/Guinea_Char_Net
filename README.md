@@ -4,67 +4,60 @@
 
 ### 具体规范：
 
-- 数据以data.json格式储存，请严格按照现有数据进行增删改。
+- 数据以json格式储存于index.html中，请严格按照现有数据进行增删改。
 
-- 操作时，可手动编辑[Json数据](/data.json) ，也可使用[Excel_or_Json.py](/Excel_or_Json.py) 转换Json数据为表格进行批量编辑。
-  - 注：编辑完成后，务必将修改的表格重新转为Json。转换选项见脚本注释。
+- 操作时，在线编辑思维导图，导出为Json数据。将字段格式修改后再粘贴至index.html中的mindMapData
+  - 注：layout, root ,theme, view字段去除""号即可。也可用正则替换
 ```
-#安装所需依赖
-pip install pandas openpyxl
+(.+)"layout"(.+)"root"(.+)"theme"(.+)"view"(.+)
+
+$1layout$2root$3theme$4view$5,
 ```
 
-
-### 截图
-
-<img src=/screenshot.png />
 
 ### 数据格式
 
 ```
 {
-    // 节点列表
-    nodes:[
-        {
-            "name": "侯哥",
-			"role_id": 0,
-            "avatar": "./img/houge.jpg"
+    layout: "mindMap",
+    root: {
+        "data": {
+            "text": "几内亚人物关系可视化思维导图",
+            ...
         },
-        {
-            "name": "飞哥",
-			"role_id": 1,
-            "avatar": "./img/feige.jpg"
+        "children": [
+            {
+                "data": {
+                    "text": "非洲飞哥",
+					...
+                },
+                "children": [
+                    {
+                        "data": {
+                            "text": "瓦木诺家",
+							...
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    theme: {
+        "template": "lemonBubbles",
+        "config": {
+
+        }
+    },
+    view: {
+        "transform": {
         },
-        {
-            "name": "大胃王",
-			"role_id": 2,
-            "avatar": "./img/dawei.jpg"
-        },
-    ],
-    // 线条列表
-    links:[
-        {
-            "source": 0,            // 起始节点在 nodes[] 中的索引
-            "target": 1,            // 目标节点在 nodes[] 中的索引
-            "relation": "徒弟",      // 关系名称
-            "color": "734646"       // 自定义细条颜色,#734646
-        },
-        {
-            "source": 2,
-            "target": 0,
-            "relation": "姑姑",
-            "color": "734646"
-        },
-		{
-            "source": 2,
-            "target": 1,
-            "relation": "保姆",
-            "color": "734646"
-        },
-    ],
-}
+        "state": {
+        }
+    }
+},
 ```
 
 ### 相关项目
 
-- [relation-chart](https://github.com/xiedajian/relation-chart): 网络视图基于该项目创建。
+- [mind-map](https://github.com/wanglin2/mind-map): 思维导图基于该项目创建。
 
